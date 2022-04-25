@@ -7,3 +7,6 @@ Create a search algorithm that utilizes similarity scoring to rank recipes accor
 To provide recipes when the user has limited items in the kitchen, or cannot decide what to cook for his/meal.
  Recommend recipes based on the dish name
 Recommend recipes based on the ingredients the user has with him/her.
+
+## Dataset
+Obtained using Web Scraping from Jamie Oliver's cooking website.
