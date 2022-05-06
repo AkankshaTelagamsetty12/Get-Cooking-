@@ -86,6 +86,8 @@ Contains sample pytesting for the user input on Streamlit. The sample test cases
 The registry automatically gets uploaded to Storage bucket.
 - Using BigQuery and Data Studio, the visualization are obtained
 
+## Test our aplication
+To run our application, click on this link : https://share.streamlit.io/niramay-kelkar/get_cooking/main/Streamlit/streamlit.py
 
 ### References
 
