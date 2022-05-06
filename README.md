@@ -46,7 +46,6 @@ Scraped data from : https://www.jamieoliver.com/
 - Hosting Streamlit
 - Visualizations
 - Github Issues 
-
 ### Folder Structure
 #### Streamlit UI
  - Functionality:
