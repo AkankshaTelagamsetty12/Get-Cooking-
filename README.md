@@ -14,9 +14,9 @@ Cooking is both a passion and a big concern for some people. Cooking, on the oth
 ### Dataset and Pre-processing
 Scraped data from : https://www.jamieoliver.com/
 Content extracted:
-    Recipe_urls
-    Recipe name
-    Ingredients
+   - Recipe_urls
+   - Recipe name
+   - Ingredients
     Serves
     Cooking_time
     Difficulty
