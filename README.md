@@ -13,14 +13,14 @@ Cooking is both a passion and a big concern for some people. Cooking, on the oth
 
 ### Dataset and Pre-processing
 Scraped data from : https://www.jamieoliver.com/
-Content extracted:
+#### Content extracted:
    - Recipe_urls
    - Recipe name
    - Ingredients
    - Serves
    - Cooking_time
    - Difficulty
-Pre-processed dataset:
+#### Pre-processed dataset:
    - Recipe_urls
    - Recipe
    - Ingredients
@@ -68,4 +68,19 @@ If the user has no ingredients, provide recipes from cache
 ##### Files:
 - Food_search_dag.py - for randomly updating cache daily to store 5 recipes 
 - Send_email_dag.py - to send emails to the registered users 
+
+
+#### Data Validations and Pytesting
+Contains sample pytesting for the user input on Streamlit. The sample test cases and the status of the tests ran are uploaded in the same folder.
+
+#### Data Visualization
+
+##### Details:
+ - Once a new user registers, the user registry gets updated
+The registry automatically gets uploaded to Storage bucket.
+- Using BigQuery and Data Studio, the visualization are obtained
+
+
+### References
+
 
