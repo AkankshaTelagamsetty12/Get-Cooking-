@@ -42,18 +42,18 @@ Pre-processed dataset:
 - Github Issues 
 
 ### Folder Structure
-Github Folder Structure
-- Streamlit UI
- -- Functionality:
+#### Streamlit UI
+ - Functionality:
 If the user provides ingredients, search through the dataset and recommend recipes based on the ingredients that match. 
 If the user has no ingredients, provide recipes from cache
-Includes:
-User authentication and authorization using JWT
-App design elements
-Import data validations using regex
-Storing the registered users’ info and uploading it into GCP storage buckets
-Files:
-Streamlit.py - has the design of the UI with error handling
-FoodSearch.py - takes the ingredients and gives dataframe as output based on the user input
+
+##### Includes:
+- User authentication and authorization using JWT
+- App design elements
+- Import data validations using regex
+- Storing the registered users’ info and uploading it into GCP storage buckets
+##### Files:
+- Streamlit.py - has the design of the UI with error handling
+- FoodSearch.py - takes the ingredients and gives dataframe as output based on the user input
 
 
