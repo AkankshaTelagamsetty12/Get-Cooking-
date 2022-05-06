@@ -11,3 +11,17 @@ Cooking is both a passion and a big concern for some people. Cooking, on the oth
 3. Recommend recipes based on the dish name
 4. Recommend recipes based on the ingredients the user has with him/her.
 
+### Dataset and Pre-processing
+Scraped data from : https://www.jamieoliver.com/
+Content extracted:
+    Recipe_urls
+    Recipe name
+    Ingredients
+    Serves
+    Cooking_time
+    Difficulty
+Pre-processed dataset:
+    Recipe_urls
+    Recipe
+    Ingredients
+    Ingredients_parsed (stopwords, measure, unnecessary words like fresh, etc. removed)
