@@ -83,4 +83,12 @@ The registry automatically gets uploaded to Storage bucket.
 
 ### References
 
+1. Fast API Authentication : https://www.youtube.com/watch?v=6hTRw_HK3Ts
+2. Apache Airflow : https://insaid.medium.com/setting-up-apache-airflow-in-macos-2b5e86eeaf1
+3. Cloud Composer : https://towardsdatascience.com/airflow-by-google-a-first-impression-of-cloud-composer-f4d9f86358cf
+4. Send Emails Using Code : https://www.youtube.com/watch?v=Y_tnWTjTfzY
+5. Uploading to GCP : https://stackoverflow.com/questions/40683702/upload-csv-file-to-google-cloud-storage-using-python
+6. Unit Testing : https://www.youtube.com/watch?v=byaxg00Gf9I
+7. BigQuerying using files from GCP storage : https://cloud.google.com/bigquery/docs/loading-data-cloud-storage-csv
+
 
