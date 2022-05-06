@@ -57,3 +57,15 @@ If the user has no ingredients, provide recipes from cache
 - FoodSearch.py - takes the ingredients and gives dataframe as output based on the user input
 
 
+#### Airflow 
+##### Functionality:
+- Automates the workflows like caching 
+- Deployment on cloud using Google Cloud Composer
+##### Includes:
+- Two automation tasks deployed on GCP
+- Cloud Composer syntax of defining DAGs
+- Storing the cache results on cloud
+##### Files:
+- Food_search_dag.py - for randomly updating cache daily to store 5 recipes 
+- Send_email_dag.py - to send emails to the registered users 
+
