@@ -3,8 +3,6 @@ import pandas as pd
 
 app = FastAPI()
 
-@app.get("/{abcd}")
+@app.get("/")
 def root():
-    df = pd.read_csv('https://storage.cloud.google.com/get-cooking/dataset/RAW_recipes.csv')
-    sample_data = df.head()
-    return sample_data.to_csv()
+    return{'message':'Hello World!'}
