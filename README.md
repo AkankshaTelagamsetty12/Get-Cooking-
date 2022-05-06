@@ -12,18 +12,7 @@ Cooking is both a passion and a big concern for some people. Cooking, on the oth
 4. Recommend recipes based on the ingredients the user has with him/her.
 
 ### Code Structure
-Get Cooking/
-├─ Pytest/
-│  ├─ sample_test.py
-├─ Streamlit/
-│  ├─ streamlit.py
-│  ├─ requirements.txt
-├─ Airflow/
-│  ├─ SendEmail/
-│  │  ├─ send_email_dag.py
-│  ├─ StoreCache/
-│  │  ├─ food_search.py
-│  │  ├─ food_search_dag.py
+<img width="267" alt="Screen Shot 2022-05-06 at 5 57 10 AM" src="https://user-images.githubusercontent.com/91446801/167110572-5838023a-5f95-4499-ab20-2df354595670.png">
 main.py
 readME.md
 Food_search.py
