@@ -11,6 +11,23 @@ Cooking is both a passion and a big concern for some people. Cooking, on the oth
 3. Recommend recipes based on the dish name
 4. Recommend recipes based on the ingredients the user has with him/her.
 
+### Code Structure
+Get Cooking/
+├─ Pytest/
+│  ├─ sample_test.py
+├─ Streamlit/
+│  ├─ streamlit.py
+│  ├─ requirements.txt
+├─ Airflow/
+│  ├─ SendEmail/
+│  │  ├─ send_email_dag.py
+│  ├─ StoreCache/
+│  │  ├─ food_search.py
+│  │  ├─ food_search_dag.py
+main.py
+readME.md
+Food_search.py
+
 ### Dataset and Pre-processing
 Scraped data from : https://www.jamieoliver.com/
 #### Content extracted:
